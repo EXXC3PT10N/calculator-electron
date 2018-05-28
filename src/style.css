@@ -1,0 +1,75 @@
+body{
+    margin: 1vw;
+    padding: 1vw;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 22vw);
+    grid-template-rows: repeat(6, 22vw);
+    grid-template-areas: 
+    "result result result result"
+    "dziel mnoz odej del"
+    "seven eight nine suma"
+    "four five six suma"
+    "one two three zero"
+    "wyn wyn wyn wyn";
+    grid-gap: 1vw;
+}
+
+.btn{
+    
+}
+
+#result {
+    grid-area: result;
+    text-align: right
+}
+
+#dziel {
+    grid-area: dziel
+}
+#mnoz {
+    grid-area: mnoz
+}
+#odej {
+    grid-area: odej
+}
+#del {
+    grid-area: del
+}
+#seven {
+    grid-area: seven
+}
+#eight {
+    grid-area: eight
+}
+#nine {
+    grid-area: nine
+}
+#suma {
+    grid-area: suma
+}
+#four {
+    grid-area:four 
+}
+#five {
+    grid-area: five
+}
+#six {
+    grid-area: six
+}
+#one {
+    grid-area: one
+}
+#two {
+    grid-area: two
+}
+#three {
+    grid-area: three
+}
+#zero {
+    grid-area: zero
+}
+#wyn {
+    grid-area: wyn
+}
