@@ -1,6 +1,8 @@
 body{
     margin: 1vw;
     padding: 1vw;
+    
+    
 }
 .container{
     display: grid;
@@ -17,12 +19,20 @@ body{
 }
 
 .btn{
-    
+    border-radius: 10px;
+    border: 0;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #result {
     grid-area: result;
-    text-align: right
+    text-align: right;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #dziel {
@@ -71,5 +81,9 @@ body{
     grid-area: zero
 }
 #wyn {
-    grid-area: wyn
+    grid-area: wyn;
+    border-radius: 10px;
+    border: 0;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
